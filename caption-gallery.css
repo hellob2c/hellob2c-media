@@ -2,7 +2,7 @@
 /* (A1) ON BIG SCREENS */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, auto); /* 3 IMAGES PER ROW */
+  grid-template-columns: repeat(5, auto); /* 3 IMAGES PER ROW */
   grid-gap: 10px;
   max-width: 1200px;
   margin: 0 auto; /* HORIZONTAL CENTER */
@@ -20,7 +20,7 @@
   height: 200px;
   cursor: pointer;
   /* FILL, CONTAIN, COVER, SCALE-DOWN : USE WHICHEVER YOU LIKE */
-  object-fit: cover;
+  object-fit: contain ;
 }
 .gallery img:fullscreen { object-fit: contain; }
 
