@@ -112,12 +112,5 @@ foreach ($images as $i) {
     }
     ?></div>
 
-
-
-
-
-
-
-
   </body>
 </html>
