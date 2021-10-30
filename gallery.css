@@ -1,6 +1,7 @@
 /* (A) GALLERY CONTAINER */
 /* (A1) ON BIG SCREENS */
 .gallery {
+  border: 2px solid ;
   display: grid;
   grid-template-columns: repeat(4, auto); /* 3 IMAGES PER ROW */
   grid-gap: 10px;
